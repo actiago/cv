@@ -1,0 +1,195 @@
+# Page settings
+
+baseURL = "https://0xdutra.com/"
+#languageCode = "en"
+theme = "hugo-devresume-theme"
+
+[params]
+    author = "Gabriel Dutra"
+    description = "Just another computer programmer"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Gabriel Dutra"
+        tagline = "Administrador de sistemas/SRE"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Marialva, PR - Brasil"
+
+        #[[params.contact.list]]
+        #icon = "fas fa-phone-square"
+        #url = "tel:#"
+        #text = "0123 4567 890"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:me@0xdutra.com"
+        text = "me@0xdutra.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "blog.0xdutra.com"
+        text = "Meu blog"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Habilidades técnicas"
+        
+        [[params.skills.list.items]]
+        details = "Golang/Python/Shell"
+        
+        [[params.skills.list.items]]
+        details = "Linux/FreeBSD"
+
+        [[params.skills.list.items]]
+        details = "Redes de computadores"
+
+        [[params.skills.list.items]]
+        details = "Segurança da informação"
+
+        [[params.skills.list.items]]
+        details = "DevOps/SRE"
+
+        [[params.skills.list]]
+        title = "Profissional"
+        [[params.skills.list.items]]
+        details = "Comunicação efetiva"
+        [[params.skills.list.items]]
+        details = "Liderança"
+        [[params.skills.list.items]]
+        details = "Resolução de problemas"
+        [[params.skills.list.items]]
+        details = "Empatia"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Analise e desenvolvimento de sistemas"
+        university = "UniFCV"
+        dates = "2017 - 2019"
+        [[params.education.list]]
+        degree = "Pós graduação em Ethical Hacking & Cyber Security"
+        university = "UNICIV"
+        dates = "2021 - 2022"
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Português"
+        level = "Nativo"
+        [[params.languages.list]]
+        name = "Inglês"
+        level = "Profissional"
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Viagens"
+        [[params.interests.list]]
+        name = "Skate"
+        [[params.interests.list]]
+        name = ""
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "Iniciei minha carreira no ano de 2017 como estagiário na XL Solutions, fiquei na empresa por quase dois anos, acabei sendo efetivado durante esse tempo. Depois, fui recrutado pela Mandic Cloud Solutions, lugar onde eu tive a minha primeira experiência com computação em nuvem, fiquei por um ano. Atualmente, trabalho na CRMALL como Administrador de sistemas."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Administrador de sistemas"
+        dates = "2020 - Present"
+        company = "Grupo BS2"
+        details = "O time de infraestrutura do grupo atua nas duas empresas, CRMALL e BS2, somos responsáveis por implementar, monitorar e manter as aplicações/produtos desenvolvidos pelas empresas, isso envolve sistemas on-promise e cloud."
+
+        [[params.experience.list.items]]
+        details = "Servidores de email - (Roundcube, postfix, dovecot)"
+        [[params.experience.list.items]]
+        details = "Servidores linux e FreeBSD"
+        [[params.experience.list.items]]
+        details = "Infraestrutura como código (Ansible, Terraform, Terragrunt, CI/CD)"
+
+        [[params.experience.list]]
+        title = "Engenheiro de sistemas"
+        dates = "2019 - 2020"
+        company = "Mandic S.A"
+        details = "Trabalhei na Mandic no time de SRE, éramos responsáveis por manter a infraestrutura dos clientes funcionando 24/7. O time além de manter a infraestrutura, também criava novas soluções de acordo com as necessidades dos clientes."
+        [[params.experience.list.items]]
+        details = "Amazon web services"
+        [[params.experience.list.items]]
+        details = "Linux"
+
+        [[params.experience.list]]
+        title = "Analista de infraestrutura"
+        dates = "2017 - 2019"
+        company = "XL Solutions"
+        details = "A XL foi a minha primeira experiência profissional, trabalhei como estagiário atendendo solicitações mais básicas, me destaquei e fui efetivado um ano após minha contratação. Tive a oportunidade de trabalhar em um projeto de implantação de roteadores Mikrotik para interligar as filias de uma grande empresa atráves de protocolos de VPN."
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Fawkes"
+        meta = "Open Source"
+        tagline = "Fawkes é um projeto de que basea em Dork engine para crawler o Google e validar a existência de SQL Injection nos sites encontrados."
+
+        [[params.projects.list]]
+        title = "Fail2ban Attack Monitoring"
+        meta = "Open Source"
+        tagline = "PoC para monitorar a origem dos ataques que os fail2ban consegue bloquear."
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/0xdutra"
+        title = "GitHub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/0xdutra"
+        title = "LinkedIn"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/0xdutra"
+        title = "Twitter"
+
