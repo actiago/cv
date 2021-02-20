@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://0xdutra.com/"
+baseURL = "https://cv.0xdutra.com/"
 #languageCode = "en"
 theme = "hugo-devresume-theme"
 
