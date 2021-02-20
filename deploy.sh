@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HOST="0xdutra.com"
+HOST="cv.0xdutra.com"
 USER="freebsd"
-REMOTE_DIR="/usr/local/share/resume/"
+REMOTE_DIR="/usr/local/share/cv/"
 
 function check_commands() {
     if ! command -v hugo &> /dev/null; then
